@@ -1,0 +1,27 @@
+.cool{
+    width: 500px;
+    height: 500px;
+    border-radius: 9px;
+    background-color: aquamarine;
+    transition: .5s ease-in;
+}
+body{
+    background-color: black;
+}
+a{
+    color: red;
+    position: absolute;
+ padding-left: 150px;
+ padding-top: 210px;
+    
+}
+.cool:hover{
+   background-color: red;
+   
+}
+.cool:hover a{
+    color: aquamarine;
+}
+h1{
+    color: red;
+}
